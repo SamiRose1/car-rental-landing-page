@@ -1,7 +1,14 @@
 import React from "react";
+import Header from "./componets/Header";
+import Hero from "./componets/Hero";
 
 const App = () => {
-  return <div className="text-4xl text-red-600">Hello world</div>;
+  return (
+    <main>
+      <Header />
+      <Hero />
+    </main>
+  );
 };
 
 export default App;
