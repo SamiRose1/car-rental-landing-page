@@ -1,16 +1,24 @@
 import React from "react";
+import { FaUserLarge } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center p-4 border  border-black overflow-auto fixed w-full bg-slate-400 bg-opacity-20">
-      <span>Apex Rentals</span>
-      <div className="flex flex-row border border-black justify-around w-1/3">
+    <header className="flex justify-around items-center w-full bg-slate-200 bg-opacity-70 fixed h-20  text-lg">
+      <h1 className="font-extrabold font-mono text-4xl">APEX RENTAL</h1>
+      <div className="flex flex-row justify-around w-1/4">
         <p>How it works</p>
         <p>Car locations</p>
       </div>
-      <div className="flex flex-row border border-black justify-around w-1/4">
-        <span>userIconImage</span>
-        <button>Get started</button>
+      <div className="flex flex-row justify-around items-center w-1/6">
+        <span>
+          <FaUserLarge size={30} />
+        </span>
+        <button
+          className="p-2 rounded-lg bg-yellow-500
+        bg-opacity-70 font-semibold w-40"
+        >
+          Get started
+        </button>
       </div>
     </header>
   );
