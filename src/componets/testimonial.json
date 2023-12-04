@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "25, December 2023",
+    "heading": "Electrifying of the Experience",
+    "para": "Integrating high performace techno into a new design.",
+    "img": "https://images.pexels.com/photos/14667491/pexels-photo-14667491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 2,
+    "date": "04, December 2022",
+    "heading": "Flexible hire for business",
+    "para": "When we develop our cars, we always focus on the details.",
+    "img": "https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 3,
+    "date": "18, November 2022",
+    "heading": "Single vehicles to entire fleets",
+    "para": "Get in touch if you need expert advice on anything.",
+    "img": "https://media.istockphoto.com/id/1272710044/photo/performance-muscle-car.jpg?b=1&s=612x612&w=0&k=20&c=6ons7q-Y4UonG7yCR5bRbEdE6vYqU4R-wMNxQI3veOY="
+  }
+]

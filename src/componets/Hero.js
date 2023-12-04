@@ -3,8 +3,8 @@ import HeroPng from "../images/hero1.png";
 
 const Hero = () => {
   return (
-    <div className=" flex justify-evenly items-center  bg-gray-200 bg-opacity-60 flex-col  h-[150vh] w-full  ">
-      <p className="text-9xl w-1/2  break-words flex justify-center items-center  font-extrabold font-serif text-zinc-800">
+    <div className=" flex justify-evenly items-center  bg-gray-200 bg-opacity-60 flex-col  h-full w-full ">
+      <p className="text-9xl w-1/2  break-words flex justify-center items-center  font-extrabold font-serif text-zinc-800 mt-14">
         PREMIUM CAR RENTAL
       </p>
       <div className="flex flex-col     text-black text-xl   w-[70%]">
@@ -41,9 +41,9 @@ const Hero = () => {
       </div>
 
       <img
-        src={HeroPng}
+        src="https://www.freepnglogos.com/uploads/lamborghini-png/royal-lamborghini-aventador-white-car-png-image-pngpix-30.png"
         alt=""
-        className="w-[60%] shadow-2xl shadow-slate-600 border rounded-3xl"
+        // className="w-[60%] shadow-2xl shadow-slate-600 border rounded-3xl"
       />
     </div>
   );
