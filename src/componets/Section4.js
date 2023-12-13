@@ -3,6 +3,7 @@ import data from "./testimonial.json";
 import carLogos from "./carLogos.json";
 const Section4 = () => {
   const mapCarLogos = carLogos.map((data) => {
+    console.log(data.img);
     return (
       <div key={data.id} className="m-4 p-2 flex justify-center items-center">
         <img src={data.img} alt="car_logo" className="w-[200px] " />

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Pages",
+    "links": ["Rental", "Locations", "FAQ", "Features", "Blog"]
+  },
+  {
+    "id": 2,
+    "name": "Resources",
+    "links": ["Installation Manuel", "Release Note", "Company Help"]
+  },
+  {
+    "id": 3,
+    "name": "Company",
+    "links": ["About Us", "Career", "Press", "Support"]
+  },
+  {
+    "id": 4,
+    "name": "Product",
+    "links": ["Demo", "Security", "FAQ", "Features"]
+  }
+]
